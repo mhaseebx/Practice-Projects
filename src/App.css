@@ -1,0 +1,26 @@
+.user-card {
+  width: 250px; 
+  margin: 15px 15rem;
+  background: #9103b4;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+}
+
+.user-name {
+  font-size: 1.5rem;
+  color: #e9e2e2;
+  margin-bottom: 10px;
+}
+
+.user-age {
+  font-size: 1rem;
+  color: #dfd9d9;
+}
